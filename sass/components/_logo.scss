@@ -1,0 +1,21 @@
+.logo {
+  // display: block;
+
+  font-family: 'Raleway';
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: inherit;
+
+  &--black {
+    color: black;
+  }
+
+  &--white {
+    color: var(--text-inverse);
+  }
+}
+
+.logo__color {
+  color: var(--text-accent);
+}
