@@ -1,21 +1,21 @@
 .logo {
-  // display: block;
+  display: inline-block;
 
-  font-family: 'Raleway';
+  font-family: $font-logo;
   font-size: 26px;
   font-weight: 700;
   letter-spacing: 0.03em;
   color: inherit;
 
   &--black {
-    color: black;
+    color: $text-black;
   }
 
   &--white {
-    color: var(--text-inverse);
+    color: $text-inverse;
   }
 }
 
-.logo__color {
-  color: var(--text-accent);
+.logo__accent {
+  color: $text-accent;
 }

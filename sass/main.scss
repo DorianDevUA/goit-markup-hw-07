@@ -1,9 +1,44 @@
+@import "./base/fonts";
+
 @import "./utils/variables";
-@import "./base/normalize";
-@import "./base/base";
+@import "./base/reset";
+@import "./base/global";
+
 @import "./components/container";
+
+// Site basic elements
+@import "./components/btn";
+
+// Site Header
 @import "./components/page-header";
 @import "./components/logo";
 @import "./components/site-nav";
-@import "./components/header-contact";
+@import "./components/contact-info";
+
+// Site main content
+@import "./components/hero-section";
+@import "./components/backdrop";
+@import "./components/modal";
+@import "./components/callback-form";
+@import "./components/close-btn";
+
+@import "./components/section";
+@import "./components/benefits";
+@import "./components/works";
+@import "./components/team";
+@import "./components/customers";
+
+// Site Footer
+@import "./components/page-footer";
+@import "./components/contact";
+@import "./components/call-to-action";
+@import "./components/social";
+@import "./components/newsletter";
+
+// Portfolio page
+@import "./components/products";
+@import "./components/filter";
+@import "./components/product-card";
+
+// Utils
 @import "./utils/visually-hidden";

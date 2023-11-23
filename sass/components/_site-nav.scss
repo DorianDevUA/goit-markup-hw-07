@@ -1,8 +1,8 @@
 .site-nav {
-}
-
-.site-nav__list {
   display: flex;
+  align-items: center;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 
 .site-nav__item {
@@ -19,9 +19,9 @@
 
   font-weight: 500;
   letter-spacing: 0.02em;
-  color: var(--text-secondary);
+  color: $text-secondary;
 
-  transition: color var(--duration) var(--timing-function);
+  transition: color $duration $timing-function;
 
   &::after {
     content: "";
@@ -32,19 +32,19 @@
     display: block;
     width: 100%;
     height: 4px;
-    background-color: var(--bg-accent);
+    background-color: $bg-accent;
     border-radius: 2px;
 
     opacity: 0;
     transform: scaleX(0);
-    transition: opacity var(--duration) var(--timing-function),
-    transform var(--duration) var(--timing-function);
+    transition: opacity $duration $timing-function,
+    transform $duration $timing-function;
   }
 
   &--current,
   &:hover,
   &:focus {
-    color: var(--text-accent);
+    color: $text-accent;
   }
 
   &--current::after,

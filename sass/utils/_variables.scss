@@ -1,28 +1,29 @@
-@import url(https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap);
+// Site fonts
+// =========================================
+$font-main: 'Roboto', Tahoma, sans-serif;
+$font-logo: 'Raleway', Tahoma, sans-serif;
 
-:root {
-  // Site colors (Кольори сайту)
-  //=============================================================================
-  --primary: #FFFFFF;  // Site main color - (Основний колір сайту)
-  --secondary: #F5F4FA;  // Site secondary color - (Додатковий колір сайту)
-  --accent: #2196F3;  // Site accent color - (Наприклад: кнопки дії, заголовки, посилання)
-  --inverse: #2F303A;  // Site inverse color - (Наприклад: для створення контрасту мыж фоном та текстом)
+// Site colors
+// =========================================
+$icon-color: #AFB1B8;
 
-  // Background colors (Фонові кольори)
-  //=============================================================================
-  --bg-primary: #FFFFFF; // Background primary color - (Основний фоновий колір сайту)
-  --bg-secondary: #F5F4FA; // Background secondary color - (Додатковий фоновий колір сайту)
-  --bg-accent: #2196F3; // Background accent color - (Може бути використаний для встановлення кольору фону для акцентних елементів, таких як кнопки або іконки.)
-  --bg-inverse: #2F303A; // Background inverse color - (Може використовуватися для налаштування кольору фону на світлому тексті)
+// Background colors
+// =========================================
+$bg-primary: #FFFFFF;
+$bg-secondary: #F5F4FA;
+$bg-accent: #2196F3;
+$bg-dark: #2F303A;
+$bg-black: #000000;
 
-  // Text colors (Текстові кольори)
-  //=============================================================================
-  --text-primary: #757575; // Text primary color - (Основний колір тексту сайту)
-  --text-secondary: #212121; // Text secondary color - (Додатковий колір тексту сайту)
-  --text-accent: #2196F3; // Text accent - (Може використовуватися для встановлення кольору тексту для акцентних елементів на сторінці, таких як посилання або кнопки)
-  --text-inverse: #FFFFFF; // Text inverse - (Може використовуватися для налаштування кольору тексту на темному фоні)
+// Text colors
+// =========================================
+$text-primary: #757575;
+$text-secondary: #212121;
+$text-accent: #2196F3;
+$text-inverse: #FFFFFF;
+$text-black: #000000;
 
-  // CSS Переходи transition
-  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  --duration: 250ms;
-}
+// CSS Переходи transition
+// =========================================
+$timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+$duration: 250ms;

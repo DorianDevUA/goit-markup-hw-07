@@ -1,20 +1,24 @@
 .page-header {
   width: 100%;
   min-height: 80px;
-  background-color: var(--bg-primary);
+  background-color: $bg-primary;
   border-bottom: 1px solid #ECECEC;
 }
 
-.page-header .container {
+.page-header__container {
   display: flex;
   align-items: center;
 }
 
-.page-header .site-nav {
-  margin-left: 93px;
-  margin-right: 50px;
+.page-header__navigation {
+  display: flex;
+  align-items: center;
 }
 
-.page-header .header-contact {
+.page-header__logo {
+  margin-right: 61px;
+}
+
+.page-header__contact-info {
   margin-left: auto;
 }

@@ -1,0 +1,21 @@
+body {
+  font-family: $font-main;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: $text-primary;
+  background: $bg-primary;
+}
+
+button {
+  cursor: pointer;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 700;
+
+  color: $text-secondary;
+  text-align: center;
+}
+
+

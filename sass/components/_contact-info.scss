@@ -1,0 +1,34 @@
+.contact-info {
+  display: flex;
+}
+
+.contact-info__item {
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.contact-info__link {
+  display: flex;
+  align-items: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: $text-primary;
+
+  white-space: nowrap;
+
+  transition: color $duration $timing-function;
+
+  &:hover,
+  &:focus {
+    color: $text-accent;
+  }
+}
+
+.contact-info__icon {
+  fill: currentColor;
+  margin-right: 10px;
+}
