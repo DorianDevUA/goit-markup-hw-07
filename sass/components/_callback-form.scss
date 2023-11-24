@@ -96,14 +96,14 @@
   width: 16px;
   height: 16px;
 
-  background-image: url(../../images/checkbox.svg);
+  background-image: url(../images/checkbox.svg);
   background-repeat: no-repeat;
   background-size: cover;
 
   transition: background-image $duration $timing-function;
 
   .callback-form__checkbox:checked+& {
-    background-image: url(../../images/check.svg);
+    background-image: url(../images/check.svg);
   }
 
   .callback-form__checkbox:focus+& {
